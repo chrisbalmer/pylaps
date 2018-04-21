@@ -1,0 +1,97 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{182, 46}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "action" : "search",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Search",
+          "uuid" : "328F63BF-C9FD-4D79-AA66-2B67F8E18059",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {256, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "computer name",
+          "flex" : "W",
+          "font_size" : 17,
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "9B4AF98D-57A1-41CE-8CC2-1187C1462E41",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "computer_name",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 126}, {256, 196}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "font_size" : 17,
+          "editable" : false,
+          "frame" : "{{34, 64}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "05B3DE32-CFEC-4874-987E-B131AF3531DC",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "text_name",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 86}, {256, 32}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 17,
+          "editable" : false,
+          "frame" : "{{34, 64}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "690B771C-B9CD-4337-BE4C-5DCAEAF93BCC",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "text_password",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {268, 328}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
