@@ -10,6 +10,10 @@ keychain_service = 'pylaps'
 
 def search(sender):
     options = load_options()
+    # TODO: Check options to make sure they exist and exit with message if they
+    #       don't.
+    # TODO: Add a progress indicator and thread search so a long search doesn't
+    #       appear to lock it up
     if 'username' in options:
         password = keychain.get_password(keychain_service, options['username'])
     computer_name = v['computer_name'].text
@@ -48,7 +52,7 @@ def show_options(sender):
         options_view['username'].text = options['username']
         password = keychain.get_password(keychain_service, options['username'])
         if password:
-            options_view['password'] = password
+            options_view['password'].text = password
     options_view.present('sheet')
 
 def cancel_options(sender):
@@ -61,7 +65,9 @@ def save_options(sender):
     options['server'] = options_view['server'].text
     with open(options_path, 'w') as options_file:
         json.dump(options, options_file)
-    keychain.set_password(keychain_service, options['username'], options_view['password'].text)
+    keychain.set_password(keychain_service,
+                          options['username'],
+                          options_view['password'].text)
     options_view.close()
 
 def load_options():
