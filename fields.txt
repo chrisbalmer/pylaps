@@ -1,3 +1,0 @@
-search_base = 'dc=example,dc=local'
-server = 'dc.example.local'
-username = 'cn or dn of user'

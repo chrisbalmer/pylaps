@@ -1,0 +1,119 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 46}, {366, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "search base",
+          "flex" : "W",
+          "font_size" : 17,
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "AB59CDE5-1E09-428E-97C8-9277D4D2CE68",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "search_base",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {366, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "server",
+          "flex" : "W",
+          "font_size" : 17,
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "710D7046-201E-45BB-8A6B-FED8FA3F4068",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "server",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 86}, {366, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "username",
+          "flex" : "W",
+          "font_size" : 17,
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "EC7BF6DA-A309-4E1F-A8E1-F7C0980CB8C0",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "username",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 126}, {366, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "78C9BACF-8D20-4ACF-BE86-36A45A4ADE3F",
+          "font_size" : 17,
+          "secure" : true,
+          "frame" : "{{20, 104}, {200, 32}}",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "placeholder" : "password",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "password",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{327, 166}, {45, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "save_options",
+          "flex" : "L",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Save",
+          "uuid" : "6931C00A-4749-4152-A8F3-9BEC0BC4B7DA",
+          "class" : "Button",
+          "name" : "save",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {378, 205}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
